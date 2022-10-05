@@ -194,6 +194,9 @@ body {
 }
 
 /* ---------------------OUR TEAM----------------------- */
+.team-bg {
+  background: #f5f4fa;
+}
 .team-text {
   font-weight: 700;
   font-size: 36px;
