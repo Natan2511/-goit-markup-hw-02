@@ -170,7 +170,6 @@ body {
   color: var(--mostly-black);
 }
 .specialities-tittle {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -205,7 +204,6 @@ body {
   color: var(--mostly-black);
 }
 .team-tittle {
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -280,7 +278,6 @@ body {
   color: var(--mostly-black);
 }
 .project-tittle {
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
