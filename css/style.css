@@ -195,7 +195,6 @@ body {
 }
 /* ---------------------OUR TEAM----------------------- */
 .team-bg {
-  background: var(--light-grayish-blue);
 }
 .team-text {
   font-weight: 700;
