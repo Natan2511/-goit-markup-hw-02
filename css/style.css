@@ -63,11 +63,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto";
+  font-style: normal;
   background-color: var(--white);
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--mosty-black);
 }
+
 /* ---------------------INDEX--------------------- */
 
 /* ---------------------HEADER--------------------- */
@@ -75,7 +77,6 @@ body {
 }
 .header-logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -87,14 +88,12 @@ body {
   color: var(--mostly-black);
 }
 .header-link {
-  font-style: normal;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--very-dark-gray);
 }
 .header-studio {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -102,20 +101,23 @@ body {
   color: var(--vivid-blue);
 }
 .header-tel {
-  font-style: normal;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--dark-gray);
 }
+.header-tel:hover,
+:focus {
+  color: var(--vivid-blue);
+}
 .header-mail {
-  font-style: normal;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--vivid-blue);
+  color: var(--dark-gray);
 }
-.header-mail:hover {
+.header-mail:hover,
+:focus {
   color: var(--vivid-blue);
 }
 
@@ -124,8 +126,6 @@ body {
   background-color: var(--very-dark-grayish-blue);
 }
 .main-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -141,7 +141,6 @@ body {
 }
 .main-text-button {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -157,7 +156,6 @@ body {
   border-radius: 4px;
 }
 .main-text-button {
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -227,7 +225,6 @@ body {
 }
 .footer-logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -238,20 +235,25 @@ body {
   color: var(--white);
 }
 .footer-tittle {
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-tittle:hover,
+:focus {
+  color: var(--vivid-blue);
+}
 .footer-address {
-  font-family: "Raleway";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--white);
+}
+.footer-address:hover,
+:focus {
+  color: var(--vivid-blue);
 }
 
 /* ---------------------PORTFOLIO--------------------- */
@@ -274,9 +276,9 @@ body {
   background: var(--light-grayish-blue);
   border-radius: 4px;
 }
+
 .port-main-button-text {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
