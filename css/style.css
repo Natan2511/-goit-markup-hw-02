@@ -276,7 +276,9 @@ body {
   background: var(--light-grayish-blue);
   border-radius: 4px;
 }
-
+.port-main-button:hover {
+  background-color: var(--vivid-blue);
+}
 .port-main-button-text {
   font-family: "Roboto";
   font-weight: 500;
